@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="calcicon.svg" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="main w-full h-[100vh] flex justify-center items-center">
+
+
+
+
+      <div
+        class="calcBody w-[90%] lg:w-[40%]  lg:h-[80vh] rounded-lg p-[2rem] flex flex-col gap-[2rem]"
+      >
+        <div class="flex justify-center items-center">
+          <div class=" w-full h-[10vh] bg-[#FEFBF6] rounded-lg">
+            <input
+              class="DisplaySec w-full h-full rounded-lg bg-[#FEFBF6] text-[2rem] lg:text-[3rem] p-4"
+              type="text"
+              name=""
+              placeholder=""
+              id=""
+            />
+          </div>
+        </div>
+
+
+
+        
+        <div
+          class="NumpadSec w-full h-fit lg:h-[60vh] rounded-lg grid grid-cols-4 gap-8 content-center p-2"
+        >
+
+
+
+          <div class="flex justify-center items-center">
+            <button class="clearBtn Btn bg-[#FEFBF6]">C</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="periodBtn numBtn bg-[#FEFBF6]">.</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="divideBtn numBtn bg-[#FEFBF6]">/</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="multiplyBtn numBtn bg-[#FEFBF6]">*</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">7</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">8</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">9</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="subBtn numBtn bg-[#FEFBF6]">-</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">4</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">5</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">6</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="addBtn numBtn bg-[#FEFBF6]">+</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">1</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">2</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="numBtn bg-[#FEFBF6]">3</button>
+          </div>
+          <div class="flex justify-center items-center">
+            <button class="equalBtn Btn bg-[#FEFBF6]">=</button>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+  </body>
+
+
+
+  <script src="script.js"></script>
+</html>
